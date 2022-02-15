@@ -9,11 +9,11 @@ class App extends Component {
   state = {  }
   render() {
     return (
-    <div className='container'>
+    <div className='primary-container'>
       <Headings />
-      <div className=''>
-        <Menu className='col col-4'/>
-        <List clasName='col col-8'/>
+      <div className='secondary-container'>
+        <Menu />
+        <List />
       </div>
       <Footer />
     </div>

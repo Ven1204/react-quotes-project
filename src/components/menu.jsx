@@ -5,13 +5,11 @@ class Menu extends Component {
   render() {
     return (
       <div className='menu-div'>
-        <ul>
-          <li>Inspirational Quotes</li>
-          <li>Jokes</li>
-          <li>Poems</li>
-          <li>Bars</li>
-          <li>Add your own</li>
-        </ul>
+        <div className='menu-1'>Inspirational Quotes</div>
+        <div className='menu-2'>Jokes</div>
+        <div className='menu-3'>Poetry</div>
+        <div className='menu-4'>Bars</div>
+        <div className='menu-5'>Add your own</div>
       </div>
     );
   }

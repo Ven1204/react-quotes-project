@@ -1,15 +1,16 @@
-body {
-  // font-family: Helvetica;
-}
+// body {
+//   // font-family: Helvetica;
+// }
 
-#root {
-  // height: 100vh;
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
-}
+// #root {
+//   height: 100vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
 
 @import 'menu';
 @import 'headings';
 @import 'list';
 @import 'footer';
+@import 'components';

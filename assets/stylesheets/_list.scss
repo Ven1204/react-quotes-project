@@ -1,3 +1,43 @@
 .list-div {
-  background-color: yellow;
+  background-color: rgba(243, 239, 239, 0.877);
+  width: 80%;
+  padding: 8px 16px ;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.author {
+  text-align: end;
+}
+
+.paragraph {
+  text-align: justify;
+}
+
+.butt-ons {
+
+  text-align: center;
+
+  .btn-primary  {
+    margin-right: 16px;
+  }
+  .btn-warning {
+    margin-right: 16px;
+  }
+  .btn-success {
+    margin-right: 16px;
+  }
+}
+
+.card {
+  background-color: whitesmoke;
+  border-radius: 4px;
+  padding: 56px;
+  box-shadow: 4px 4px 4px rgb(172, 172, 172);
+  margin-top: 8px;
+  h2 {
+    margin: 0;
+  }
+  h4{
+    text-shadow: 1px 1px 2px;
+  }
 }

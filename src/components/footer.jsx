@@ -5,6 +5,11 @@ class Footer extends Component {
   render() {
     return (
       <div className='footer-div'>
+        <div>
+          <p>
+            all rights reserved etc.................................
+          </p>
+        </div>
         <span className='pl-2 mr-4'>
           <i className="fa-brands fa-instagram-square" >|</i>
         </span>
