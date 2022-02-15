@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Click from './js-files/click';
 
 class Menu extends Component {
   state = {  }
@@ -9,7 +10,7 @@ class Menu extends Component {
         <div className='menu-2'>Jokes</div>
         <div className='menu-3'>Poetry</div>
         <div className='menu-4'>Bars</div>
-        <div className='menu-5'>Add your own</div>
+        <div className='menu-5' onClick={Click}>Add your own</div>
       </div>
     );
   }
