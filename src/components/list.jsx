@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
 class List extends Component {
+  constructor(props){
+    super(props);
+  }
+
   state = {  }
   render() {
     return (
@@ -36,3 +40,13 @@ class List extends Component {
 }
 
 export default List;
+
+
+
+const quotes = [
+  {id: 1, quotes: 'We become what we think about', author: 'Earl Nightingale', reminder: 'A reminder that positive thinking helps you frame your mindset and change your life, spoken by the author of, “Essence of Success.'},
+  {id: 2, quotes: 'People who are crazy enough to think they can change the world, are the ones who do.', author: 'Rob Siltanen', reminder: 'Rob is a leading creative marketer responsible for some of the most effective and iconic advertising campaigns of the past 30 years.'},
+  {id: 3, quotes: 'Optimism is the one quality more associated with success and happiness than any other.', author: 'Brian Tracy', reminder: "Let your positivity and optimism inspire you and lead you to success. That's my favorite way to achieve success."},
+  {id: 4, quotes: 'Happiness is not something readymade. It comes from your own actions.', author: 'Dalai Lama', reminder: 'A visionary among us, the Dalai Lama always has something inspiring to share'},
+  {id: 5, quotes: 'All our dreams can come true if we have the courage to pursue them.', author: 'Walt Disney', reminder: "This inspirational quote comes from the man who created the happiest place on earth - and a multibillion-dollar empire."},
+]
